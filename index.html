@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Menu Project</title>
+</head>
+<body>
+  <section class="menu">
+    <div class="title">
+      <h2>Our Menu</h2>
+      <div class="underline"></div>
+    </div>
+    <!-- now add the filter buttons -->
+     <div class="btn-container">
+      <!-- i have to add the same datasets which are named as category on script array -->
+      <button class="filter-btn" data-id="all">All</button>
+      <button class="filter-btn" data-id="Breakfast">Breakfast</button>
+      <button class="filter-btn" data-id="Lunch">Lunch</button>
+      <button class="filter-btn" data-id="shakes">Shakes</button>
+     </div>
+    <!-- menu items -->
+     <div class="section-center">
+      <article class="menu-item">
+        <img src="item-1.jpeg" alt="pancake" class="photo">
+        <div class="item-info">
+          <header>
+            <h4>Buttermilk Pancakes</h4>
+            <h4 class="price">$15</h4>
+          </header>
+          <p class="item-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, dicta in? At, soluta nulla velit sint delectus explicabo voluptates aliquam.
+          </p>
+        </div>
+      </article>
+     </div>
+  </section>
+  <!-- javascript linking -->
+   <script src="script.js"></script>
+</body>
+</html>
